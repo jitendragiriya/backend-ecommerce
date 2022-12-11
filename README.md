@@ -1,0 +1,15 @@
+# backend-ecommerce
+
+SMPT_SERVICE=gmail
+CORS_URL=http://localhost:3001
+SMPT_PASSWORD=zqrynyozxpqrnxhb
+CLOUDINARY_SECRET_KEY=_BfrsSkTDYdz_fAVi_keL_sEqds
+STRIPE_SECRET_KEY=sk_test_51JYvBsSEeu5gk4WGycCbz76vWQPE3HItfEjGc64maJia7pBRmtU5bNW0LBbWNu0d6FlRN806FieEN8Ca4hf8ukVc00ZmGUXJ0q
+MONGO_URL=mongodb+srv://jitendra_giriya:passwordForAtTime@cluster0.jr137.mongodb.net/MERN-stack-E-commerce?retryWrites=true&w=majority
+CLOUDINARY_NAME=dnbbpytkm
+SMPT_MAIL=jitendragiriya.message@gmail.com
+COOKIE_EXPIRES_IN=365
+CLOUDINARY_API_KEY=293168721918199
+JWT_SECRET_KEY=solopreneauristhekeyofthelevelupinthemainexam
+STRIPE_API_KEY=pk_test_51JYvBsSEeu5gk4WGSj3FaLdBbINI5T7Su9yy8GZiiEidxRWwCFLfnFC1Epuo5rqly0oQfxhOUlT7jZ1MsvDrWIXs00PtkAjX0J
+SMPT_PORT=587
