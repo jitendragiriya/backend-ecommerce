@@ -28,5 +28,8 @@
     "nodemailer": "^6.6.3",
     "stripe": "^8.184.0",
     "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
