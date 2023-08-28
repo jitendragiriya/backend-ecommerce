@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use(cors({
-    origin: `${process.env.CORS_URL}`,
+    origin: [`${process.env.DEVELOPMENT_CORS}`, `${process.env.PRODUCTION_CORS}`],
     credentials:true,
     optionSuccessStatus: 200,
 }));
