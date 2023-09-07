@@ -5,7 +5,7 @@ const connectDB = async () => {
     .connect(`${process.env.MONGODB_CONNECTION_URL}`, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      // useCreateIndex: true,
+      useCreateIndex: true,
       // useFindAndModify: false,
     })
     .then(() => console.log("Database connected successfully."))
